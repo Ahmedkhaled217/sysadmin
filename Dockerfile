@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 FROM openjdk:11.0.11-slim
 COPY ./target/demo1-0.0.1-SNAPSHOT.jar demo1-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java", "-jar", "demo1-0.0.1-SNAPSHOT.jar"]
+=======
+FROM openjdk:11.0.11-slim
+COPY ./target/demo1-0.0.1-SNAPSHOT.jar demo1-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "demo1-0.0.1-SNAPSHOT.jar"]
+>>>>>>> 787c69ee7b68e816918041264bbc3814a375d019
