@@ -3,7 +3,7 @@ pipeline {
         label 'java-agent-01'
     }
 
-    tools {
+    tool {
         maven 'maven-352'
         jdk 'java-11'
     }
